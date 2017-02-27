@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ch_ZN">
+<head>
+	<meta charset="UTF-8">
+	<title>我的博客</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="js/addValue.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!--[if lt IE9]> 
+   <script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+
+   })() 
+
+
+   </script>
+
+   <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+   <![endif]-->
+
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="javascript:;"><i class="fa fa-circle-o fa-fw"></i></a>
+			<a href="javascript:;"><i class="fa fa-twitter fa-fw"></i></a>
+			<a href="javascript:;"><i class="fa fa-arrows-alt fa-fw"></i></a>
+			<a href="javascript:;"><i class="fa fa-delicious fa-fw"></i></a>
+            <a href="javascript:;"><i class="fa fa-heart fa-fw"></i></a>
+		</nav>
+		<h1>LITTLEBOWL</h1>
+		<a class="more" href="javascript:;"><i class="fa fa-bars fa-fw"></i></a>
+	</header> 
+	<section class="session-wrap session-wrap-pic opacity" id="session-wrap">
+		<a href="javascript:;"class="images {{css}}" id="images" >
+		    <img src="images/img{{index}}.jpg"/>
+			<div class="time"><span class="time-left"><em>em1</em>span1</span><span class="time-right"><em>em2</em>span2</span></div>
+		    <span class="comment"><i class="fa fa-heart fa-fw"></i>heartI<i class="fa fa-comment fa-fw"></i>commentI<i class="fa fa-arrows-alt fa-fw"></i></span>
+		</a>
+		</section>
+	<section class="session-wrap session-wrap-texts opacity">
+		<h2>A Picture Is Worth A Thousand Words</h2>
+		<p>People peter griffin high school mom bra just avenger le me students friendzoned challenge accepted. True Story face troll finals derpina cereal guy lose back final week yao male. Not bad luke feel like a sir bacon pizza coffee a the avengers puking rainbows nyan cat search.</p>
+		<a href="javascript:;">Learn More About Us</a>
+	</section>
+	<section class="session-wrap session-wrap-blog opacity">
+		<article class="article opacity" id="article">
+		  <div class="article-concrete">
+		  	<span class="digest">{{digest}}
+		  	<em class="time">{{time}}</em>
+			<em class="last">{{last}}</em>
+			<i class="fa fa-bookmark fa-fw"></i>
+			</span>
+			<h2><a href="javascript:;">{{h2}}</a></h2>
+            <div class="img-wrapper">
+            <img src="images/img{{index}}.jpg"/>
+            <span class="img-bottom">{{bottom}}
+            </span>
+            </div>
+            <div class="identity">
+                <em class="author">Author</em>
+                <em class="name">{{name}}</em>
+                <span class="avatar">
+                    <img src="images/avatar{{index}}.jpg"/>
+                	<span class="more">
+                		<a href="javascript:;"><i class="fa fa-twitter fa-fw"></i></a>
+                		<a href="javascript:;"><i class="fa fa-behance fa-fw"></i></a>
+                		<a href="javascript:;"><i class="fa fa-dribbble fa-fw"></i></a>
+                	</span>
+                </span>
+            	<a class="share" href="javascript:;"><i class="fa fa-link fa-fw"></i></a>
+            	<a class="share" href="javascript:;"><i class="fa fa-facebook fa-fw"></i></a>
+            	<a class="share" href="javascript:;"><i class="fa fa-twitter fa-fw"></i></a>
+            	<a class="share" href="javascript:;"><i class="fa fa-google-plus fa-fw"></i></a>
+            </div>
+            <p class="para-first">{{p1}}
+            </p>
+            <p class="para-second">{{p2}}
+            </p>
+		  </div>
+		</article>
+		<!-- js改变箭头方向 G-->
+		<aside class="aside">
+			<div class="aside-inner opacity">
+				<h3>Categorys</h3>
+				<ul >
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Traveling   <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Photos    <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Lifestyle     <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Inspiration     <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Fashion    <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Business     <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> Technology    <span>(<em>9</em>)</span></a>
+						<ul>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li class="works"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="aside-inner opacity">
+				<h3>Archive</h3>
+				<ul>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> 2014   <span>(<em>4</em>)</span></a>
+						<ul>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>Janaruary     <span>(<em>4</em>)</span></a>
+						    <ul>
+				            <li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						 	</ul>
+						 	
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>February     <span>(<em>4</em>)</span></a>
+						    <ul>
+				            <li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						 	</ul>
+						 	
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>March     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>April     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>May     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>June     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>July    <span>(<em>4</em>)</span></a>
+						 </li>
+			
+						</ul>
+					</li>
+					<li class="li-wrapper"><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i> 2015   <span>(<em>4</em>)</span></a>
+						<ul>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>Janaruary     <span>(<em>4</em>)</span></a>
+						    <ul>
+				            <li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						 	</ul>
+						 	
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>February     <span>(<em>4</em>)</span></a>
+						    <ul>
+				            <li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>A Picture is Worth A (..)</a></li>
+							<li><a href="javascript:;"><i class="fa fa-caret-right fa-fw"></i>Trip to New York City (..)</a></li>
+						 	</ul>
+						 	
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>March     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>April     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>May     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>June     <span>(<em>4</em>)</span></a>
+						 </li>
+						 <li class="month"><a href=""><i class="fa fa-caret-right fa-fw"></i>July    <span>(<em>4</em>)</span></a>
+						 </li>
+			
+						</ul>
+					</li>	
+				</ul>
+			</div>
+		</aside>
+	</section>
+	<section class="session-wrap session-wrap-more opacity">
+	<div class="contact opacity" >
+		<h3>Contact Me</h3>
+		<p>Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone clinton cereal guy.Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone clinton cereal guy. </p>
+		<form action="">
+			<input type="text" placeholder="Your Name"/><label >*reqiured</label>
+			<input type="text" placeholder="Your Email Address"/><label class="alert">*please enter a valid address</label>
+			<textarea placeholder="Your Message"></textarea>
+			<a href="javascript:;">SEND E-MAIL</a>
+		</form>
+    </div> 
+	<div class="post opacity">
+		<h3>Random Post</h3>
+		<img src="images/post1.jpg"/>
+		<p>Some advise on this Photography</p>
+	</div>
+	<div class="post opacity">
+		<h3>Random Post</h3>
+		<img src="images/post2.jpg"/>
+		<p>Some advise on this Photography</p>
+	</div>
+	<div class="Bio opacity">
+		<h3>LITTLEBOWL</h3>
+		<h4>NewsLetter</h4>
+		<form>
+		<input type="text" placeholder="Your E-Mail Address" />
+		</form>
+		<a href="javascript:;">SUBSCRIBE</a>
+	</div>
+	</section>
+	<footer>
+    <nav>
+	    <a href="javascript:;"><i class="fa fa-circle-o fa-fw"></i></a>
+	    <a href="javascript:;"><i class="fa fa-twitter fa-fw"></i></a>
+	    <a href="javascript:;"><i class="fa fa-arrows-alt fa-fw"></i></a>
+	    <a href="javascript:;"><i class="fa fa-delicious fa-fw"></i></a>
+        <a href="javascript:;"><i class="fa fa-heart fa-fw"></i></a>
+    </nav>
+	<h1>LITTLEBOWL</h1>
+	<a class="more" href="javascript:;"><i class="fa fa-bars fa-fw"></i></a>
+	</footer>
+</body>
+</html>
